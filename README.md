@@ -27,7 +27,7 @@ Otherwise you can open jupyter notebook and open the notebook so you'll be able 
 ### Warning:
 I faced the next problem when running from console:
 
-**Error “could not find or load the Qt platform plugin windows” while using matplotlib in pycharm**
+**Error “could not find or load the Qt platform plugin windows” **
 
 I solved it by following a response from [here](https://stackoverflow.com/questions/41994485/error-could-not-find-or-load-the-qt-platform-plugin-windows-while-using-matplo), by setting the `Library\plugins` Anaconda folder as `QT_PLUGIN_PATH` on the environment variables.
 
