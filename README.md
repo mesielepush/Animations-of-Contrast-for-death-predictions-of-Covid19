@@ -18,7 +18,7 @@ You'll need the **'projections'** folder that's on the [Youyang Gu repository](h
 
 ![repository](https://i.imgur.com/j7I7NZb.png)
  
-Place it on the same folder as [prediction_animation.py](prediction_animation.py) and [Contrasts animations for Deaths predictions of Covid19.ipynb](Contrasts animations for Deaths predictions of Covid19.ipynb):  
+Place it on the same folder as [prediction_animation.py](prediction_animation.py) and [Contrasts animations for Deaths predictions of Covid19.ipynb](https://github.com/mesielepush/Animations-of-Contrast-for-death-predictions-of-Covid19/blob/master/Contrasts%20animations%20for%20Deaths%20predictions%20%20of%20Covid19.ipynb):  
 
 Then you can run it from the console by typing: ` python prediction_animation.py country_name ` replacling country_name with the name of the country to animate.
 
