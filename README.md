@@ -22,13 +22,13 @@ Place it on the same folder as [prediction_animation.py](prediction_animation.py
 
 Then you can run it from the console by typing: ` python prediction_animation.py country_name ` replacling country_name with the name of the country to animate.
 
-Otherwise you can open jupyter notebook and open the notebook so you'll be able to modify the plots.
+Otherwise you can open jupyter notebook and work on the [notebook](https://github.com/mesielepush/Animations-of-Contrast-for-death-predictions-of-Covid19/blob/master/Contrasts%20animations%20for%20Deaths%20predictions%20%20of%20Covid19.ipynb) so you'll be able to modify the plots.
 
 ### Warning:
-I faced the next problem when running from console:
+I faced the next problem when running from the console:
 
-**Error “could not find or load the Qt platform plugin windows” **
+**Error “could not find or load the Qt platform plugin windows”**
 
 I solved it by following a response from [here](https://stackoverflow.com/questions/41994485/error-could-not-find-or-load-the-qt-platform-plugin-windows-while-using-matplo), by setting the `Library\plugins` Anaconda folder as `QT_PLUGIN_PATH` on the environment variables.
 
-Running trough Jupyter notebook has no problems.
+Running through Jupyter notebook has no problems.
