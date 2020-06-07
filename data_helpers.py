@@ -1,7 +1,10 @@
 import os
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
+import imageio
 from shutil import copy2
+
 path = os.path.abspath(os.path.join(os.getcwd(),'projections'))
 
 def get_files(country_name):
@@ -21,3 +24,11 @@ def clean_nan(array):
         array = np.asarray(array) 
     not_nan_array = ~ np.isnan(array)
     return array[not_nan_array]
+
+def eliminate_negatives(df):
+    for key in df.keys():
+        try:
+            df[key] = [x if x >0 else np.nan for x in df[key]]
+        except:
+            pass
+    return df
