@@ -1,5 +1,5 @@
 # Animations of contrasts for death prediction of Covid19
- This script and notebook produces mp4 animations, for contrasting real data of deaths for Covid19, with the predictions trought time of [Youyang Gu](https://github.com/youyanggu/covid19_projections). It works for several countries.
+ This script and notebook produces mp4 animations, for contrasting real data of deaths for Covid19, with the predictions through time of [Youyang Gu](https://github.com/youyanggu/covid19_projections). It works for several countries.
 
  ![GIF EXAMPLE](test.gif)
 
@@ -14,11 +14,11 @@ Data come from [Youyang Gu repository](https://github.com/youyanggu/covid19_proj
 ## Instructions
 Download the repository.
 
-You'll need the 'projections' folder that's on the [Youyang Gu repository](https://github.com/youyanggu/covid19_projections).  
+You'll need the **'projections'** folder that's on the [Youyang Gu repository](https://github.com/youyanggu/covid19_projections).  
 
 ![repository](https://i.imgur.com/j7I7NZb.png)
  
-Place it on the same folder as [prediction_animation.py](..prediction_animation.py) and [Contrasts animations for Deaths predictions of Covid19.ipynb](..Contrasts_animations_for_Deaths_predictions_of_Covid19.ipynb):  
+Place it on the same folder as [prediction_animation.py](prediction_animation.py) and [Contrasts animations for Deaths predictions of Covid19.ipynb](Contrasts animations for Deaths predictions of Covid19.ipynb):  
 
 Then you can run it from the console by typing: ` python prediction_animation.py country_name ` replacling country_name with the name of the country to animate.
 
