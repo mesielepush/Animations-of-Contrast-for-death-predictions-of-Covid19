@@ -280,7 +280,12 @@ if __name__ == "__main__":
         try:
             get_animation(sys.argv[1])
         except:
+            print('##################################')
+            print('##################################')
             print(f"I don't understand the name of the country: {sys.argv[1]}\nposible names are: ")
+            print('##################################')
+            print('##################################')
+
             get_posible_countries()
-            
+
     
