@@ -263,7 +263,24 @@ def make_videos(country_name):
     print('##########')
     print(f'Animations ready, con be found on:\nresults/{country_name}')
 
+def get_posible_countries():
+    set_names = []
+    for root, _, files in os.walk('projections'):
+        if root.endswith('global'):
+            for file in files:
+                if file[0] not in '0123456789':
+                    set_names.append(file[:-8])
+    for name in set(set_names):
+        print(name)
 
 if __name__ == "__main__":
-    get_animation(sys.argv[1])
-    print(sys.argv[1])
+    if sys.argv[1] == 'names':
+        get_posible_countries()
+    else:
+        try:
+            get_animation(sys.argv[1])
+        except:
+            print(f"I don't understand the name of the country: {sys.argv[1]}\nposible names are: ")
+            get_posible_countries()
+            
+    
